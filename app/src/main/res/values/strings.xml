@@ -12,7 +12,7 @@
     <string name="special_thanks_notifications_link" translatable="false"><a href="https://github.com/creativetrendsapps">Creative Trends</a></string>
 
     <!-- Strings to translate during creation of a new translation -->
-    <string name="app_name">Face Slim</string>
+    <string name="app_name">Facebook</string>
     <string name="image_chooser">Image Chooser</string>
     <string name="loading_link">Opening a link</string>
     <string name="applying_changes">Applying changes</string>
