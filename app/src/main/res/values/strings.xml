@@ -44,7 +44,7 @@
     <string name="notifications">Notifications</string>
     <string name="no_network">You are offline ;)</string>
     <string name="hardware_acceleration">Hardware Acceleration &#8635;</string>
-    <string name="hardware_acceleration_description">Disable it only on low memory devices (in case of problems).</string>
+    <string name="hardware_acceleration_description">Disable it only on low memory devices. Videos may not work.</string>
     <string name="share_link">Share the link</string>
     <string name="long_clicks">Long clicks</string>
     <string name="long_clicks_description">Long click a link or an image link to share.</string>
@@ -57,6 +57,8 @@
     <string name="facebook_zero">Facebook Zero</string>
     <string name="facebook_zero_description">No data charges. GSM provider dependent. Works during mobile network connection.</string>
     <string name="facebook_zero_active">Facebook Zero is active</string>
+    <string name="load_extra">Load external pictures</string>
+    <string name="load_extra_description">Open external pictures in-app. Currently only few sites are supported.</string>
     <string name="preference_category4">Additional</string>
     <string name="quick_guide">Quick Start Guide</string>
     <string name="messages">Messages</string>
@@ -127,6 +129,13 @@
     <string name="crash_dialog_comment_prompt">You might add your comments about the problem below:</string>
     <string name="file_logger">Save logs to a file</string>
     <string name="file_logger_description">Save Notification Service logs to an external memory. It needs a storage permission.</string>
-    <string name="file_logger_needs_permission">No access to external storage. Log cannot be saved.</string>
+    <string name="file_logger_needs_permission">No access to external storage. Log cannot be saved</string>
+    <string name="save_img">Save image</string>
+    <string name="downloading_img">Downloading image&#8230;</string>
+
+    <string name="download_manager_disabled">DownloadManager is disabled. Please enable it.</string>
+    <string name="cannot_access_storage">No access to external storage</string>
+    <string name="file_cannot_be_saved">A file cannot be saved</string>
+    <string name="camera_exception">Problems with a camera</string>
 
 </resources>

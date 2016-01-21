@@ -36,7 +36,7 @@
     <string name="notifications">Обавештења</string>
     <string name="no_network">Нисте повезани ;)</string>
     <string name="hardware_acceleration">Хардверско убрзање &#8635;</string>
-    <string name="hardware_acceleration_description">Искључите на уређајима са мало меморије (у случају проблема).</string>
+    <string name="hardware_acceleration_description">Искључите на уређајима са мало меморије. Видео можда неће радити.</string>
     <string name="share_link">Подели везу</string>
     <string name="long_clicks">Дуги тап</string>
     <string name="long_clicks_description">Задржите тап на везу или слику да бисте их делили.</string>
@@ -49,6 +49,8 @@
     <string name="facebook_zero">Фејсбук Зиро</string>
     <string name="facebook_zero_description">Без надокнаде за пренесене податке. Зависи од вашег оператера. Ради при вези мобилних података.</string>
     <string name="facebook_zero_active">Фејсбук Зиро је активан</string>
+    <string name="load_extra">Учитавај спољашње слике</string>
+    <string name="load_extra_description">Учитавање слика са других сајтова унутар апликације. Тренутно подржано само пар сајтова.</string>
     <string name="preference_category4">Додатно</string>
     <string name="quick_guide">Водич за брзи почетак</string>
     <string name="messages">Поруке</string>
@@ -119,6 +121,13 @@
     <string name="crash_dialog_comment_prompt">Ваш коментар о проблему можете да додате испод:</string>
     <string name="file_logger">Сачувај запис у фајл</string>
     <string name="file_logger_description">Упис записа сервиса обавештавања у спољашње складиште. Захтева дозволе за складиште.</string>
-    <string name="file_logger_needs_permission">Немам приступ спољашњем складишту. Не могу да сачувам записе.</string>
+    <string name="file_logger_needs_permission">Немам приступ спољашњем складишту. Не могу да сачувам записе</string>
+    <string name="save_img">Сачувај слику</string>
+    <string name="downloading_img">Преузимам слику&#8230;</string>
+
+    <string name="download_manager_disabled">Менаџер преузимања је онемогућен, омогућите га.</string>
+    <string name="cannot_access_storage">Немам приступ спољашњем складишту</string>
+    <string name="file_cannot_be_saved">Не могу да сачувам фајл</string>
+    <string name="camera_exception">Проблем са камером</string>
 
 </resources>

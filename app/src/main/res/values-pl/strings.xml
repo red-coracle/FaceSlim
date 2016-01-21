@@ -34,7 +34,7 @@
     <string name="notifications">Powiadomienia</string>
     <string name="no_network">Jesteś offline ;)</string>
     <string name="hardware_acceleration">Przyspieszenie sprzętowe &#8635;</string>
-    <string name="hardware_acceleration_description">Deaktywuj jedynie na urządzeniach z małą ilością pamięci (w razie problemów).</string>
+    <string name="hardware_acceleration_description">Deaktywuj jedynie na urządzeniach z małą ilością pamięci. Filmy mogą nie działać.</string>
     <string name="share_link">Udostępnij link</string>
     <string name="long_clicks">Długie kliknięcia</string>
     <string name="long_clicks_description">Przytrzymaj link lub foto link by udostępnić.</string>
@@ -108,7 +108,6 @@
     <string name="you_have_n_messages">Masz %d nowych wiadomości.</string>
     <string name="special_thanks_notifications">Podziękowania z pomoc z powiadomieniami:</string>
     <string name="sync_problem">Nie mogę zsynchronizować cookies. Pierwszy start? Zrestartuj aplikację :)</string>
-
     <string name="interval_pref_description_new">Powiadomienia są sprawdzane co %s.</string>
     <string name="facebook_notifications">Powiadomienia z Facebook</string>
     <string name="notification_sound_msg">Dźwięk wiadomości</string>
@@ -119,5 +118,14 @@
     <string name="file_logger">Zapisuj logi do pliku</string>
     <string name="file_logger_description">Zapisz logi usługi powiadomień w pamięci zewnętrznej. Potrzebne uprawnienie zapisu.</string>
     <string name="file_logger_needs_permission">Brak dostępu do pamięci zewnętrznej. Log nie może zostać zapisany</string>
+    <string name="save_img">Zapisz zdjęcie</string>
+    <string name="downloading_img">Pobieram zdjęcie&#8230;</string>
+
+    <string name="download_manager_disabled">DownloadManager jest wyłączony. Włącz go proszę.</string>
+    <string name="cannot_access_storage">Brak dostępu do pamięci zewnętrznej</string>
+    <string name="file_cannot_be_saved">Plik nie może zostać zapisany</string>
+    <string name="camera_exception">Nie mogę użyć aparatu</string>
+    <string name="load_extra">Ładuj zewnętrzne obrazy</string>
+    <string name="load_extra_description">Otwieraj zdjęcia z zewnętrznych serwisów. Obecnie niewiele stron jest wspieranych.</string>
 
 </resources>

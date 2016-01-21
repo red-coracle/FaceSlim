@@ -47,13 +47,13 @@
             android:summary="@string/notifications_settings_description"/>
 
         <SwitchPreference
-            android:key="message_notifications"
-            android:title="@string/message_notifications"
+            android:key="notifications_activated"
+            android:title="@string/facebook_notifications"
             android:defaultValue="false"/>
 
         <SwitchPreference
-            android:key="notifications_activated"
-            android:title="@string/facebook_notifications"
+            android:key="message_notifications"
+            android:title="@string/message_notifications"
             android:defaultValue="false"/>
 
     </PreferenceCategory>
@@ -80,6 +80,12 @@
             android:title="@string/dark_theme"
             android:summary="@string/dark_theme_description"
             android:enabled="false"
+            android:defaultValue="false"/>
+
+        <SwitchPreference
+            android:key="load_extra"
+            android:title="@string/load_extra"
+            android:summary="@string/load_extra_description"
             android:defaultValue="false"/>
 
     </PreferenceCategory>
@@ -111,7 +117,7 @@
             android:title="@string/hide_news_feed"
             android:summary="@string/hide_news_feed_description"
             android:defaultValue="false"/>
-        
+
     </PreferenceCategory>
 
 

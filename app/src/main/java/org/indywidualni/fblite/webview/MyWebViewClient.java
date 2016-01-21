@@ -17,7 +17,7 @@ import org.indywidualni.fblite.util.Connectivity;
 import org.indywidualni.fblite.util.Dimension;
 import org.indywidualni.fblite.util.FileOperation;
 
-public class MyAppWebViewClient extends WebViewClient {
+public class MyWebViewClient extends WebViewClient {
 
     // variable for onReceivedError
     private boolean refreshed;
@@ -40,7 +40,15 @@ public class MyAppWebViewClient extends WebViewClient {
                 || Uri.parse(url).getHost().endsWith("l.facebook.com")
                 || Uri.parse(url).getHost().endsWith("0.facebook.com")
                 || Uri.parse(url).getHost().endsWith("zero.facebook.com")
+                || Uri.parse(url).getHost().endsWith("fbcdn.net")
+                || Uri.parse(url).getHost().endsWith("akamaihd.net")
                 || Uri.parse(url).getHost().endsWith("fb.me")) {
+            return false;
+        } else if (preferences.getBoolean("load_extra", false)
+                && (Uri.parse(url).getHost().endsWith("googleusercontent.com")
+                || Uri.parse(url).getHost().endsWith("tumblr.com")
+                || Uri.parse(url).getHost().endsWith("pinimg.com")
+                || Uri.parse(url).getHost().endsWith("media.giphy.com"))) {
             return false;
         }
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
