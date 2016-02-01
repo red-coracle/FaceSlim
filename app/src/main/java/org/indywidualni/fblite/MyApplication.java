@@ -38,7 +38,7 @@ public class MyApplication extends Application {
 
         /**
          * Count app downloads. Fired only after new installation or upgrade.
-         * It's never fired again. In fact the app is not tracking anything but installations.
+         * It's never fired again. In fact the app is not tracking anything.
          */
         getTracker().trackAppDownload();
     }
@@ -53,7 +53,7 @@ public class MyApplication extends Application {
 
     /**
      * Get Piwik tracker. No sensitive data is collected. Just app version, predicted location,
-     * resolution, device model and system version. Location is based on anonymized IP address.
+     * resolution and system version. Location is based on anonymized IP address.
      * @return tracker instance
      */
     public synchronized Tracker getTracker() {
