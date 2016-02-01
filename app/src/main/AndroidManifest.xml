@@ -41,7 +41,6 @@
             android:name=".service.NotificationsService"
             android:enabled="true"
             android:exported="false"
-            android:process=":remote"
             android:icon="@mipmap/ic_launcher" >
         </service>
         <activity
@@ -100,7 +99,7 @@
         <activity
             android:name=".activity.MessagesShortcutActivity"
             android:label="@string/messages"
-            android:icon="@mipmap/ic_launcher" >
+            android:icon="@mipmap/ic_messages" >
             <intent-filter>
                 <action android:name="android.intent.action.CREATE_SHORTCUT" />
                 <category android:name="android.intent.category.DEFAULT" />

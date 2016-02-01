@@ -9,8 +9,8 @@ android {
         resValue "string", "tray__authority", "${applicationId}.tray"
         minSdkVersion 15
         targetSdkVersion 23
-        versionCode 27
-        versionName "2.3.0"
+        versionCode 28
+        versionName "2.3.1"
     }
     buildTypes {
         release {
@@ -50,5 +50,6 @@ dependencies {
     compile 'net.grandcentrix.tray:tray:0.9.2'
     compile 'org.jsoup:jsoup:1.8.3'
     compile 'ch.acra:acra:4.7.0'
+    compile 'org.piwik.sdk:piwik-sdk:0.0.4'
     compile project(':saxrssreader')
 }
